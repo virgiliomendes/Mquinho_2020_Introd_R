@@ -1,0 +1,166 @@
+---
+title: \titulo{Introdução ao R}
+author: \autor{Virgílio de Araújo Mendes}{virgilioebm@gmail.com}
+date: \today
+documentclass: article
+classoption: oneside
+papersize: a4
+fontsize: 12pt
+output:
+  pdf_document:
+    includes:
+      in_header: preamble.tex
+      before_body: body.tex
+    latex_engine: xelatex
+    fig_caption: true
+    dev: cairo_pdf 
+    citation_package: biblatex
+biblio-style: abnt
+biblatexoptions: [backend=biber, backref=true, noslsn=true]    
+header-includes: |
+  % Math symbols
+  \newcommand\widebar[1]{\mathop{\overline{#1}}} %wide bar
+  \newcommand{\indep}{\perp \!\!\! \perp} % Independence
+  %
+  \usepackage{csquotes}
+  \usepackage{float}
+  \usepackage{unicode-math}
+    \setmainfont{Times New Roman}
+    %\AtBeginDocument{% % replacing the ugly blackboard bold provided by unicode-math
+    %  \let\mathbb\relax
+    %  \DeclareMathAlphabet{\mathbb}{U}{msb}{m}{n}%
+    % }
+    \setmonofont[SizeFeatures={Size=10}, BoldFeatures={SizeFeatures={{Size= 10}}}, ItalicFeatures ={SizeFeatures={{Size= 10}}}, Numbers = {SlashedZero}]{Latin Modern Mono Light}
+    \definecolor{bluegray}{rgb}{0.4, 0.6, 0.8}
+    \definecolor{bostonred}{rgb}{0.8, 0.0, 0.0}
+    \definecolor{canaryyellow}{rgb}{1.0, 0.94, 0.0}
+    \definecolor{jade}{rgb}{0.0, 0.66, 0.42}
+---
+
+
+```{r setup, include=FALSE}
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(knitr, tidyverse, devtools, formatR)
+opts_chunk$set(echo = TRUE, fig.path = "results/", fig.align = "center", warning = FALSE, message = FALSE, comment = NA, 
+results = "makeup", fig.pos = "H", out.width = "90%", fig.height = 4, space = TRUE, collapse = FALSE, tidy = FALSE, tidy.opts=list(width.cutoff=70))
+options(width = 90)
+options(scipen=999)
+```
+
+
+## 1. Professores: 
+
+### Eduardo Ryô Tamaki (*eduardo.rtamaki@gmail.com*)
+
+Mestrando em Ciência Política no Programa de Pós-Graduação da Universidade Federal de Minas Gerais, e Bacharel em Ciências Sociais pela UFMG. Pesquisador pelo Centro de Estudos do Comportamento Político (CECOMP), da UFMG. Membro da equipe de Análise Textual do Team Populism (BYU). Foco na área de Comportamento Político e especialista em Populismo. Tem experiência com pesquisas envolvendo métodos quantitativos e qualitativos. 
+
+- [ResearchGate](https://www.researchgate.net/profile/Eduardo_Ryo_Tamaki)
+ 
+- [Team Populism](https://populism.byu.edu/Pages/Details/20)
+
+- [Github](https://github.com/Ttytamaki)
+ 
+- [Linkedin](https://www.linkedin.com/in/eduardo-ry%C3%B4-tamaki-5b936811a/)
+ 
+- [Lattes](http://lattes.cnpq.br/5391631247832365)
+
+
+### Virgílio de Araújo Mendes (*virgilioebm@gmail.com*)
+
+Mestrando em Ciência Política na UFMG, na área de Comportamento Político, e Bacharel em Ciências Sociais pela Universidade Federal de Minas Gerais (UFMG). Ex-diretor da Coordenadoria de Projetos da MEIOS JR. Pesquisador do Projeto de Pesquisa Media Bias e ex-data analyst da Quaest Consultoria e Pesquisa com expertise em análise e processamento de surveys.
+
+- [Site](https://virgiliomendes.github.io)
+ 
+- [Github](https://github.com/virgiliomendes)
+ 
+- [Media Bias](https://sites.google.com/view/mediabias/)
+ 
+- [Linkedin](https://www.linkedin.com/in/virgiliomendes)
+ 
+- [Lattes](http://lattes.cnpq.br/3781647781988333)
+
+## 2. Objetivos:
+
+
+- Estar ambientado com o RStudio e ser capaz de buscar informações e resolver problemas.
+
+- Manipular e fazer tratamento em bancos de dados.
+
+- Melhorar skills síntese de informações e replicabilidade de pesquisas com rigor científico.
+
+- Produzir análises qualificadas, seja a partir de dados secundários ou estudos exploratórios.
+
+
+
+## 3. Referências e materiais de apoio:
+
+
+ *[R. Michael Alvarez, Ellen M. Key and Lucas Núñez.“Research replication: Practical considerations."](https://www.cambridge.org/core/journals/ps-political-science-and-politics/article/research-replication-practical-considerations/B744967268CDAA3F44103AA5C8539EA2)
+ 
+ *[Aquino, Jakson. “R para cientistas sociais.”](http://www.uesc.br/editora/livrosdigitais_20140513/r_cientistas.pdf)
+ 
+ *[Meireles, Fernando & Denisson Silva. 2018. “Usando R: Um Guia para Cientistas Poíticos.”](http://electionsbr.com/livro/)
+ 
+ *[Imai, K.: "Quantitative Social Science: An Introduction"](http://qss.princeton.press/)
+ 
+ *[R Base Cheat Sheet](https://rstudio.com/wp-content/uploads/2016/05/base-r.pdf)
+ 
+ *[Guia para Instalação](http://material.curso-r.com/instalacao/)
+
+
+## 4. Programação e conteúdo:
+
+  Serão 5 aulas (total de **15 horas**) organizadas respectivamente em: 1 hora de aula (primeira metade), 30 minutos de intervalo, 30 minutos para tirar dúvidas e resolução de exercícios e 1 hora de aula (segunda metade).
+
+ A disposição das aulas ao longo da semana:
+ 
+
+ * **Aula 1** - Introdução ao R 
+ * **Aula 2** - Data Frames: Tratamento, Manipulação e Análise de Dados
+ * **Aula 3** - Manipulação de dados com Dplyr
+ * **Aula 4** - Visualização de dados com Ggplot2
+ * **Aula 5** - Encerramento e Trabalho Prático
+
+  
+### Dos tópicos abordados em cada aula:
+
+### **Aula 1** - Introdução ao R 
+
+- Apresentação a IDE, funções de *Help* e fóruns/comunidade (*Stackoverflow*);
+- Instalando e carregando Pacotes;
+- Lógica dos pacotes/funções;
+- Básico (operações matemáticas);
+- Vetores / Objetos;
+- Classes e tipos de dados: numérica, string, factor, character;
+- Operadores Lógicos;
+
+
+### **Aula 2** - Data Frames: Tratamento, Manipulação e Análise de Dados
+
+- Matrizes;
+- Data frames;
+- Manipulação de Data Frames;
+- Análise Descritivas (describe, glimpse, summary);
+
+
+### **Aula 3** - Manipulação de dados com Dplyr
+
+- Lógica do Pipe ( "%>%" );
+- Glimpse/Mutate/ Select /Arrange/Filter;
+- Split Apply Combine;
+- Filter/Group_by/Summarize;
+
+
+### **Aula 4** - Visualização de dados com Ggplot2
+
+- Lógica dos gráficos com o GGPLOT2;
+- Estrutura dos Layers (aes, geometry, etc);
+- Tipos de gráficos e aplicações (IRIS);
+
+
+### **Aula 5** - Encerramento e Trabalho Prático
+
+- Tratamento de uma base de dados;
+- Compreendendo o BD por meio de analises exploratórias;
+- Visualização dos dados;
+

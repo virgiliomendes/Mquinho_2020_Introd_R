@@ -1,0 +1,23 @@
+\frenchspacing
+\onehalfspacing
+
+\setlength{\parindent}{1em} %Tamanho do recuo do parágrafo
+\setlength{\parskip}{1em} %Espaçamento entre as linhas
+
+
+
+% New environment for the long list
+\newenvironment{twenty}{%
+	\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+}{%
+	\end{tabular*}
+}
+
+\newcommand{\twentyitem}[4]{%
+	#1&\parbox[t]{0.83\textwidth}{%
+		\textbf{#2}%
+		\hfill%
+		{\footnotesize#3}\\%
+		#4\vspace{\parsep}%
+	}\\
+}

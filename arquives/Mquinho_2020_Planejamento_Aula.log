@@ -1,0 +1,2035 @@
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.9.2)  3 SEP 2020 12:29
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Mquinho_2020_Planejamento_Aula.tex
+(./Mquinho_2020_Planejamento_Aula.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-08-07>
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cl
+s
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count164
+\c@section=\count165
+\c@subsection=\count166
+\c@subsubsection=\count167
+\c@paragraph=\count168
+\c@subparagraph=\count169
+\c@figure=\count170
+\c@table=\count171
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/lmodern.st
+y
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amssym
+b.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfon
+ts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath
+.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
+For additional information on amsmath, use the `?' option.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amstext
+.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.
+sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen135
+))
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.
+sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen136
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.
+sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count172
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count173
+\leftroot@=\count174
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count175
+\DOTSCASE@=\count176
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen137
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count177
+\c@MaxMatrixCols=\count178
+\dotsspace@=\muskip16
+\c@parentequation=\count179
+\dspbrk@lvl=\count180
+\tag@help=\toks17
+\row@=\count181
+\column@=\count182
+\maxfields@=\count183
+\andhelp@=\toks18
+\eqnshift@=\dimen138
+\alignsep@=\dimen139
+\tagshift@=\dimen140
+\tagwidth@=\dimen141
+\totwidth@=\dimen142
+\lineht@=\dimen143
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifxetex
+.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.s
+ty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifluate
+x.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/un
+icode-math.sty
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.
+sty
+Package: expl3 2020-08-07 L3 programming layer (loader) 
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3bac
+kend-xdvipdfmx.def
+File: l3backend-xdvipdfmx.def 2020-08-07 L3 backend support: xdvipdfmx
+\g__graphics_track_int=\count184
+\l__pdf_internal_box=\box47
+\g__pdf_backend_object_int=\count185
+\g__pdf_backend_annotation_int=\count186
+))
+Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/un
+icode-math-xetex.sty
+Package: unicode-math-xetex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLa
+TeX
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xpar
+se/xparse.sty
+Package: xparse 2020-05-15 L3 Experimental document command parser
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xpar
+se/xparse-generic.tex
+\l__xparse_current_arg_int=\count187
+\g__xparse_grabber_int=\count188
+\l__xparse_m_args_int=\count189
+\l__xparse_v_nesting_int=\count190
+))
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/l3ke
+ys2e/l3keys2e.sty
+Package: l3keys2e 2020-05-15 LaTeX2e option processing using LaTeX3 keys
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontsp
+ec.sty
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontsp
+ec-xetex.sty
+Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count191
+\l__fontspec_language_int=\count192
+\l__fontspec_strnum_int=\count193
+\l__fontspec_tmp_int=\count194
+\l__fontspec_tmpa_int=\count195
+\l__fontspec_tmpb_int=\count196
+\l__fontspec_tmpc_int=\count197
+\l__fontspec_em_int=\count198
+\l__fontspec_emdef_int=\count199
+\l__fontspec_strong_int=\count266
+\l__fontspec_strongdef_int=\count267
+\l__fontspec_tmpa_dim=\dimen144
+\l__fontspec_tmpb_dim=\dimen145
+\l__fontspec_tmpc_dim=\dimen146
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.st
+y
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontsp
+ec.cfg)))
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+\g__um_fam_int=\count268
+\g__um_fonts_used_int=\count269
+\l__um_primecount_int=\count270
+\g__um_primekern_muskip=\muskip17
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/un
+icode-math-table.tex)))
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.s
+ty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/co
+lor.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-def/xe
+tex.def
+File: xetex.def 2020/08/26 v5.0i Graphics/color driver for xetex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperr
+ef.sty
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcm
+ds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pd
+ftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/infwarerr/inf
+warerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/keyval
+.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvs
+etkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/
+kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdfescape/pdf
+escape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor
+.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/letltxmacro/let
+ltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/auxhook/auxhook
+.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvoptions/kvopt
+ions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen147
+\Hy@linkcounter=\count271
+\Hy@pagecounter=\count272
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc
+.def
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/intcalc/intca
+lc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/etexcmds/etex
+cmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count273
+Package hyperref Info: Option `unicode' set `true' on input line 4338.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.
+def
+File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count274
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen148
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bitset/bitset
+.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bigintcalc/bi
+gintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count275
+\Field@Width=\dimen149
+\Fld@charsize=\dimen150
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/atbegshi/atbe
+gshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count276
+\c@Item=\count277
+\c@Hfootnote=\count278
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hxetex
+.def
+File: hxetex.def 2020-05-15 v7.00e Hyperref driver for XeTeX
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/stringenc/str
+ingenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box48
+\c@Hy@AnnotLevel=\count279
+\HyField@AnnotCount=\count280
+\Fld@listcount=\count281
+\c@bookmark@seq@number=\count282
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/
+rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/atveryend/atver
+yend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/uniquecounter
+/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip52
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphi
+cx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphi
+cs.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/trig.s
+ty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/gr
+aphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+)
+\Gin@req@height=\dimen151
+\Gin@req@width=\dimen152
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/grffile/grffile
+.sty
+Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legac
+y)
+Package grffile Info: This package is an empty stub for compatibility on input 
+line 40.
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mathtools/matht
+ools.sty
+Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count283
+\calc@Bcount=\count284
+\calc@Adimen=\dimen153
+\calc@Bdimen=\dimen154
+\calc@Askip=\skip53
+\calc@Bskip=\skip54
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count285
+\calc@Cskip=\skip55
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mathtools/mhset
+up.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count286
+\l_MT_multwidth_dim=\dimen155
+\origjot=\skip56
+\l_MT_shortvdotswithinadjustabove_dim=\dimen156
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen157
+\l_MT_above_intertext_sep=\dimen158
+\l_MT_below_intertext_sep=\dimen159
+\l_MT_above_shortintertext_sep=\dimen160
+\l_MT_below_shortintertext_sep=\dimen161
+\xmathstrut@box=\box49
+\xmathstrut@dim=\dimen162
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/babel.s
+ty
+Package: babel 2020/09/01 3.48 The Babel package
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/babel.d
+ef
+File: babel.def 2020/09/01 3.48 Babel common definitions
+\babel@savecnt=\count287
+\U@D=\dimen163
+\l@babelnohyphens=\language4
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/xebabel
+.def
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/txtbabe
+l.def))
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count288
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel-portuge
+s/brazil.ldf
+Language: portuges 2020/05/04 v1.2r Portuguese support from the babel system
+Package babel Info: \l@brazil = using hyphenrules for portuguese
+(babel)             (\language3) on input line 111.
+Package babel Info: Making " an active character on input line 143.
+))
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/indentfir
+st.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/ragged2e/ragged
+2e.sty
+Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip57
+\RaggedLeftLeftskip=\skip58
+\RaggedRightLeftskip=\skip59
+\CenteringRightskip=\skip60
+\RaggedLeftRightskip=\skip61
+\RaggedRightRightskip=\skip62
+\CenteringParfillskip=\skip63
+\RaggedLeftParfillskip=\skip64
+\RaggedRightParfillskip=\skip65
+\JustifyingParfillskip=\skip66
+\CenteringParindent=\skip67
+\RaggedLeftParindent=\skip68
+\RaggedRightParindent=\skip69
+\JustifyingParindent=\skip70
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/enumitem/enumit
+em.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip71
+\enit@outerparindent=\dimen164
+\enit@toks=\toks22
+\enit@inbox=\box50
+\enit@count@id=\count289
+\enitdp@description=\count290
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\spacefactor' on input line 71.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@m' on input line 71.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\spacefactor' on input line 71.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@m' on input line 71.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 71.
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 71.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 71.
+Package hyperref Info: Option `colorlinks' set `true' on input line 71.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyphenat/hyphen
+at.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+
+Package hyphenat Warning: *******************************
+(hyphenat)                * You have used the htt option.
+(hyphenat)                * You are likely to get many Font Warning messages.
+(hyphenat)                * These can usually be ignored.
+(hyphenat)                *******************************.
+
+\langwohyphens=\language5
+LaTeX Info: Redefining \_ on input line 43.
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/footmisc/footmi
+sc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks23
+\footnotemargin=\dimen165
+\c@pp@next@reset=\count291
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/footnotebackref
+/footnotebackref.sty
+Package: footnotebackref 2012/07/01 v1.0 Backreferences for footnotes (Holger L
+ange)
+\c@BackrefHyperFootnoteCounter=\count292
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/geometry/geomet
+ry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.
+sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count293
+\Gm@cntv=\count294
+\c@Gm@tempcnt=\count295
+\Gm@bindingoffset=\dimen166
+\Gm@wd@mp=\dimen167
+\Gm@odd@mp=\dimen168
+\Gm@even@mp=\dimen169
+\Gm@layoutwidth=\dimen170
+\Gm@layoutheight=\dimen171
+\Gm@layouthoffset=\dimen172
+\Gm@layoutvoffset=\dimen173
+\Gm@dimlist=\toks24
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/titlesec/titles
+ec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box51
+\beforetitleunit=\skip72
+\aftertitleunit=\skip73
+\ttl@plus=\dimen174
+\ttl@minus=\dimen175
+\ttl@toksa=\toks25
+\titlewidth=\dimen176
+\titlewidthlast=\dimen177
+\titlewidthfirst=\dimen178
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/setspace/setspa
+ce.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/csquotes/csquot
+es.sty
+Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolb
+ox.sty
+Package: etoolbox 2020/08/24 v2.5j e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count296
+)
+\csq@reset=\count297
+\csq@gtype=\count298
+\csq@glevel=\count299
+\csq@qlevel=\count300
+\csq@maxlvl=\count301
+\csq@tshold=\count302
+\csq@ltx@everypar=\toks26
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/csquotes/csquot
+es.def
+File: csquotes.def 2019-12-06 v5.2j csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/csquotes/csquot
+es.cfg
+File: csquotes.cfg 
+))
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count303
+\float@exts=\toks27
+\float@box=\box52
+\@float@everytoks=\toks28
+\@floatcapt=\box53
+)
+
+Package fontspec Info: Times New Roman scale = 0.9636299023440277.
+
+
+Package fontspec Info: Times New Roman scale = 0.9636299023440277.
+
+
+Package fontspec Info: Times New Roman scale = 0.9636299023440277.
+
+
+Package fontspec Info: Times New Roman/B scale = 0.9440481727713549.
+
+
+Package fontspec Info: Times New Roman/B scale = 0.9440481727713549.
+
+
+Package fontspec Info: Times New Roman/I scale = 1.001912475428977.
+
+
+Package fontspec Info: Times New Roman/I scale = 1.001912475428977.
+
+
+Package fontspec Info: Times New Roman/BI scale = 0.9818519945425632.
+
+
+Package fontspec Info: Times New Roman/BI scale = 0.9818519945425632.
+
+
+Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options
+(fontspec)             [Scale=MatchLowercase,Ligatures=TeX,Scale=1].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1]"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->s*[1]"Times
+(fontspec)             New
+(fontspec)             Roman/OT:script=latn;language=dflt;+smcp;mapping=tex-tex
+t;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1]"Times New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"Times New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;+smcp;mapping=tex-t
+ext;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[1]"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;+smcp;mapping=tex-t
+ext;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->s*[1]"Times
+(fontspec)             New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-
+text;"
+
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 131.
+
+Package fontspec Info: Times New Roman scale = 0.9999971570313723.
+
+
+Package fontspec Info: Times New Roman scale = 0.9999971570313723.
+
+
+Package fontspec Info: Times New Roman scale = 0.9999971570313723.
+
+
+Package fontspec Info: Times New Roman/B scale = 0.9796764157853839.
+
+
+Package fontspec Info: Times New Roman/B scale = 0.9796764157853839.
+
+
+Package fontspec Info: Times New Roman/I scale = 1.039724508949025.
+
+
+Package fontspec Info: Times New Roman/I scale = 1.039724508949025.
+
+
+Package fontspec Info: Times New Roman/BI scale = 1.018906948383191.
+
+
+Package fontspec Info: Times New Roman/BI scale = 1.018906948383191.
+
+
+Package fontspec Info: Font family 'TimesNewRoman(1)' created for font 'Times
+(fontspec)             New Roman' with options [Scale=MatchLowercase].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999971570313723]"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[0.9999971570313723]"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9796764157853839]"Times New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[0.9796764157853839]"Times New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1.039724508949025]"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1.039724508949025]"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1.018906948383191]"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1.018906948383191]"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;+smcp;"
+
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/TimesNewRoman(1)/m/n on input line 1
+31.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> TU/TimesNewRoman(1)/m/it on input line
+ 131.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> TU/TimesNewRoman(1)/b/n on input line 
+131.
+
+Package fontspec Info: Latin Modern Mono Light scale = 1.037736795366909.
+
+
+Package fontspec Info: Latin Modern Mono Light scale = 1.037736795366909.
+
+
+Package fontspec Info: Latin Modern Mono Light/B scale = 1.037736795366909.
+
+
+Package fontspec Info: Latin Modern Mono Light/I scale = 1.037736795366909.
+
+
+Package fontspec Info: Latin Modern Mono Light/BI scale = 1.037736795366909.
+
+
+Package fontspec Info: Font family 'LatinModernMonoLight(0)' created for font
+(fontspec)             'Latin Modern Mono Light' with options
+(fontspec)             [Scale=MatchLowercase,WordSpace={1,0,0},HyphenChar=None,
+PunctuationSpace=WordSpace,SizeFeatures={Size=10},BoldFeatures={SizeFeatures={{
+Size=
+(fontspec)             10}}},ItalicFeatures ={SizeFeatures={{Size=
+(fontspec)             10}}},Numbers = {SlashedZero}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <10>s*[1.037736795366909]"Latin Modern Mono
+(fontspec)             Light/OT:script=latn;language=dflt;+zero;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <10>s*[1.037736795366909]"Latin Modern Mono
+(fontspec)             Light/B/OT:script=latn;language=dflt;+zero;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <10>s*[1.037736795366909]"Latin Modern Mono
+(fontspec)             Light/I/OT:script=latn;language=dflt;+zero;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1.037736795366909]"Latin Modern Mono
+(fontspec)             Light/BI/OT:script=latn;language=dflt;+zero;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+
+Package fontspec Info: Latin Modern Mono Light scale = 1.037736795366909.
+
+
+Package fontspec Info: Latin Modern Mono Light scale = 1.037736795366909.
+
+
+Package fontspec Info: Latin Modern Mono Light/B scale = 1.037736795366909.
+
+
+Package fontspec Info: Latin Modern Mono Light/I scale = 1.037736795366909.
+
+
+Package fontspec Info: Latin Modern Mono Light/BI scale = 1.037736795366909.
+
+
+Package fontspec Info: Font family 'LatinModernMonoLight(1)' created for font
+(fontspec)             'Latin Modern Mono Light' with options
+(fontspec)             [Scale=MatchLowercase,SizeFeatures={Size=10},BoldFeature
+s={SizeFeatures={{Size=
+(fontspec)             10}}},ItalicFeatures ={SizeFeatures={{Size=
+(fontspec)             10}}},Numbers = {SlashedZero}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <10>s*[1.037736795366909]"Latin Modern Mono
+(fontspec)             Light/OT:script=latn;language=dflt;+zero;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <10>s*[1.037736795366909]"Latin Modern Mono
+(fontspec)             Light/B/OT:script=latn;language=dflt;+zero;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <10>s*[1.037736795366909]"Latin Modern Mono
+(fontspec)             Light/I/OT:script=latn;language=dflt;+zero;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1.037736795366909]"Latin Modern Mono
+(fontspec)             Light/BI/OT:script=latn;language=dflt;+zero;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/lmtt/m/n --> TU/LatinModernMonoLight(1)/m/n on inpu
+t line 132.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/lmtt/m/n --> TU/LatinModernMonoLight(1)/b/n on inpu
+t line 132.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/biblat
+ex.sty
+Package: biblatex 2020/08/23 v3.15a programmable bibliographies (PK/MW)
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/logreq/logreq.s
+ty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count304
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/logreq/logreq.d
+ef
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count305
+\c@listtotal=\count306
+\c@listcount=\count307
+\c@liststart=\count308
+\c@liststop=\count309
+\c@citecount=\count310
+\c@citetotal=\count311
+\c@multicitecount=\count312
+\c@multicitetotal=\count313
+\c@instcount=\count314
+\c@maxnames=\count315
+\c@minnames=\count316
+\c@maxitems=\count317
+\c@minitems=\count318
+\c@citecounter=\count319
+\c@maxcitecounter=\count320
+\c@savedcitecounter=\count321
+\c@uniquelist=\count322
+\c@uniquename=\count323
+\c@refsection=\count324
+\c@refsegment=\count325
+\c@maxextratitle=\count326
+\c@maxextratitleyear=\count327
+\c@maxextraname=\count328
+\c@maxextradate=\count329
+\c@maxextraalpha=\count330
+\c@abbrvpenalty=\count331
+\c@highnamepenalty=\count332
+\c@lownamepenalty=\count333
+\c@maxparens=\count334
+\c@parenlevel=\count335
+\blx@tempcnta=\count336
+\blx@tempcntb=\count337
+\blx@tempcntc=\count338
+\blx@maxsection=\count339
+\blx@maxsegment@0=\count340
+\blx@notetype=\count341
+\blx@parenlevel@text=\count342
+\blx@parenlevel@foot=\count343
+\blx@sectionciteorder@0=\count344
+\blx@entrysetcounter=\count345
+\blx@biblioinstance=\count346
+\labelnumberwidth=\skip74
+\labelalphawidth=\skip75
+\biblabelsep=\skip76
+\bibitemsep=\skip77
+\bibnamesep=\skip78
+\bibinitsep=\skip79
+\bibparsep=\skip80
+\bibhang=\skip81
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language6
+\c@mincomprange=\count347
+\c@maxcomprange=\count348
+\c@mincompwidth=\count349
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/blx-dm
+.def
+File: blx-dm.def 2020/08/23 v3.15a biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'abnt.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count350
+\c@savedafterword=\count351
+\c@annotator=\count352
+\c@savedannotator=\count353
+\c@author=\count354
+\c@savedauthor=\count355
+\c@bookauthor=\count356
+\c@savedbookauthor=\count357
+\c@commentator=\count358
+\c@savedcommentator=\count359
+\c@editor=\count360
+\c@savededitor=\count361
+\c@editora=\count362
+\c@savededitora=\count363
+\c@editorb=\count364
+\c@savededitorb=\count365
+\c@editorc=\count366
+\c@savededitorc=\count367
+\c@foreword=\count368
+\c@savedforeword=\count369
+\c@holder=\count370
+\c@savedholder=\count371
+\c@introduction=\count372
+\c@savedintroduction=\count373
+\c@namea=\count374
+\c@savednamea=\count375
+\c@nameb=\count376
+\c@savednameb=\count377
+\c@namec=\count378
+\c@savednamec=\count379
+\c@translator=\count380
+\c@savedtranslator=\count381
+\c@shortauthor=\count382
+\c@savedshortauthor=\count383
+\c@shorteditor=\count384
+\c@savedshorteditor=\count385
+\c@labelname=\count386
+\c@savedlabelname=\count387
+\c@institution=\count388
+\c@savedinstitution=\count389
+\c@lista=\count390
+\c@savedlista=\count391
+\c@listb=\count392
+\c@savedlistb=\count393
+\c@listc=\count394
+\c@savedlistc=\count395
+\c@listd=\count396
+\c@savedlistd=\count397
+\c@liste=\count398
+\c@savedliste=\count399
+\c@listf=\count400
+\c@savedlistf=\count401
+\c@location=\count402
+\c@savedlocation=\count403
+\c@organization=\count404
+\c@savedorganization=\count405
+\c@origlocation=\count406
+\c@savedoriglocation=\count407
+\c@origpublisher=\count408
+\c@savedorigpublisher=\count409
+\c@publisher=\count410
+\c@savedpublisher=\count411
+\c@language=\count412
+\c@savedlanguage=\count413
+\c@origlanguage=\count414
+\c@savedoriglanguage=\count415
+\c@pageref=\count416
+\c@savedpageref=\count417
+\shorthandwidth=\skip82
+\shortjournalwidth=\skip83
+\shortserieswidth=\skip84
+\shorttitlewidth=\skip85
+\shortauthorwidth=\skip86
+\shorteditorwidth=\skip87
+\locallabelnumberwidth=\skip88
+\locallabelalphawidth=\skip89
+\localshorthandwidth=\skip90
+\localshortjournalwidth=\skip91
+\localshortserieswidth=\skip92
+\localshorttitlewidth=\skip93
+\localshortauthorwidth=\skip94
+\localshorteditorwidth=\skip95
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/blx-un
+icode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/blx-co
+mpat.def
+File: blx-compat.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
+)
+Package biblatex Info: expl3
+(biblatex)             2020-08-07 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+Package biblatex Info: Trying to load expl3 case changing code...
+Package biblatex Info: ... file 'blx-case-expl3.def' found.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/blx-ca
+se-expl3.def
+File: blx-case-expl3 2020/08/23 v3.15a expl3 case changing code for biblatex
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/biblat
+ex.def
+File: biblatex.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
+\c@textcitecount=\count418
+\c@textcitetotal=\count419
+\c@textcitemaxnames=\count420
+\c@biburlbigbreakpenalty=\count421
+\c@biburlbreakpenalty=\count422
+\c@biburlnumpenalty=\count423
+\c@biburlucpenalty=\count424
+\c@biburllcpenalty=\count425
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count426
+)
+Package biblatex Info: Trying to load bibliography style 'abnt'...
+Package biblatex Info: ... file 'abnt.bbx' found.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex-abnt/a
+bnt.bbx
+File: abnt.bbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xpatch/xpatch.s
+ty
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/bbx/st
+andard.bbx
+File: standard.bbx 2020/08/23 v3.15a biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count427
+\c@bbx:relatedtotal=\count428
+))
+Package biblatex Info: Trying to load citation style 'abnt'...
+Package biblatex Info: ... file 'abnt.cbx' found.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex-abnt/a
+bnt.cbx
+File: abnt.cbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
+Package biblatex Info: Trying to load citation style 'authoryear-comp'...
+Package biblatex Info: ... file 'authoryear-comp.cbx' found.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/cbx/au
+thoryear-comp.cbx
+File: authoryear-comp.cbx 2020/08/23 v3.15a biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\footcitetexts'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\citetitle'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\citeauthor'.
+Package biblatex Info: Redefining '\citeyear'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/biblat
+ex.cfg
+File: biblatex.cfg 
+))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'brazil'.
+(./Mquinho_2020_Planejamento_Aula.aux)
+\openout1 = `Mquinho_2020_Planejamento_Aula.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 142.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/lmss/bx/n --> TU/lmss/b/n on input line 142.
+
+Package fontspec Info: latinmodern-math scale = 1.037736795366909.
+
+
+Package fontspec Info: latinmodern-math scale = 1.037736795366909.
+
+
+Package fontspec Info: latinmodern-math scale = 1.037736795366909.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1.037736795366909]"[latinmodern-math.otf]/OT:scrip
+t=math;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.037736795366909]"[latinmodern-math.otf]/OT:scrip
+t=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
+(Font)              scaled to size 12.45282pt on input line 142.
+
+Package fontspec Info: latinmodern-math scale = 1.037736795366909.
+
+
+Package fontspec Info: latinmodern-math scale = 1.037736795366909.
+
+
+Package fontspec Info: latinmodern-math scale = 1.037736795366909.
+
+
+Package fontspec Info: latinmodern-math scale = 1.037736795366909.
+
+
+Package fontspec Info: latinmodern-math scale = 1.037736795366909.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(1)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.2-10.2,Font=latin
+modern-math.otf,Style=MathScript},{Size=-7.2,Font=latinmodern-math.otf,Style=Ma
+thScriptScript}},BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <10.2->s*[1.037736795366909]"[latinmodern-math.otf]/OT:s
+cript=math;language=dflt;"<7.2-10.2>s*[1.037736795366909]"[latinmodern-math.otf
+]/OT:script=math;language=dflt;+ssty=0;"<-7.2>s*[1.037736795366909]"[latinmoder
+n-math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.037736795366909]"[latinmodern-math.otf]/OT:scrip
+t=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 12.45282pt on input line 142.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 142.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
+ line 142.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 142.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
+t line 142.
+
+Package fontspec Info: latinmodern-math scale = 1.037736795366909.
+
+
+Package fontspec Info: latinmodern-math scale = 1.037840569046446.
+
+
+Package fontspec Info: latinmodern-math scale = 1.037736795366909.
+
+
+Package fontspec Info: latinmodern-math scale = 1.037840569046446.
+
+
+Package fontspec Info: latinmodern-math scale = 1.037736795366909.
+
+
+Package fontspec Info: latinmodern-math scale = 1.037840569046446.
+
+
+Package fontspec Info: latinmodern-math scale = 1.037736795366909.
+
+
+Package fontspec Info: latinmodern-math scale = 1.037840569046446.
+
+
+Package fontspec Info: latinmodern-math scale = 1.037736795366909.
+
+
+Package fontspec Info: latinmodern-math scale = 1.037840569046446.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.2-10.2,Font=latin
+modern-math.otf,Style=MathScript},{Size=-7.2,Font=latinmodern-math.otf,Style=Ma
+thScriptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=1.0001,FontAdjustme
+nt={\fontdimen
+(fontspec)             8\font =8.43056pt\relax \fontdimen 9\font
+(fontspec)             =4.90642pt\relax \fontdimen 10\font =5.52905pt\relax
+(fontspec)             \fontdimen 11\font =8.54263pt\relax \fontdimen 12\font
+(fontspec)             =4.29622pt\relax \fontdimen 13\font =4.52037pt\relax
+(fontspec)             \fontdimen 14\font =4.52037pt\relax \fontdimen 15\font
+(fontspec)             =3.59886pt\relax \fontdimen 16\font =3.07585pt\relax
+(fontspec)             \fontdimen 17\font =3.07585pt\relax \fontdimen 18\font
+(fontspec)             =3.1132pt\relax \fontdimen 19\font =2.49057pt\relax
+(fontspec)             \fontdimen 22\font =3.1132pt\relax \fontdimen 20\font
+(fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <10.2->s*[1.037840569046446]"[latinmodern-math.otf]/OT:s
+cript=math;language=dflt;"<7.2-10.2>s*[1.037840569046446]"[latinmodern-math.otf
+]/OT:script=math;language=dflt;+ssty=0;"<-7.2>s*[1.037840569046446]"[latinmoder
+n-math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =8.43056pt\relax \fontdimen 9\font
+(fontspec)             =4.90642pt\relax \fontdimen 10\font =5.52905pt\relax
+(fontspec)             \fontdimen 11\font =8.54263pt\relax \fontdimen 12\font
+(fontspec)             =4.29622pt\relax \fontdimen 13\font =4.52037pt\relax
+(fontspec)             \fontdimen 14\font =4.52037pt\relax \fontdimen 15\font
+(fontspec)             =3.59886pt\relax \fontdimen 16\font =3.07585pt\relax
+(fontspec)             \fontdimen 17\font =3.07585pt\relax \fontdimen 18\font
+(fontspec)             =3.1132pt\relax \fontdimen 19\font =2.49057pt\relax
+(fontspec)             \fontdimen 22\font =3.1132pt\relax \fontdimen 20\font
+(fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.037840569046446]"[latinmodern-math.otf]/OT:scrip
+t=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =8.43056pt\relax \fontdimen 9\font
+(fontspec)             =4.90642pt\relax \fontdimen 10\font =5.52905pt\relax
+(fontspec)             \fontdimen 11\font =8.54263pt\relax \fontdimen 12\font
+(fontspec)             =4.29622pt\relax \fontdimen 13\font =4.52037pt\relax
+(fontspec)             \fontdimen 14\font =4.52037pt\relax \fontdimen 15\font
+(fontspec)             =3.59886pt\relax \fontdimen 16\font =3.07585pt\relax
+(fontspec)             \fontdimen 17\font =3.07585pt\relax \fontdimen 18\font
+(fontspec)             =3.1132pt\relax \fontdimen 19\font =2.49057pt\relax
+(fontspec)             \fontdimen 22\font =3.1132pt\relax \fontdimen 20\font
+(fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 142.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
+t line 142.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 142.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
+t line 142.
+
+Package fontspec Info: latinmodern-math scale = 1.037736795366909.
+
+
+Package fontspec Info: latinmodern-math scale = 1.037633021687372.
+
+
+Package fontspec Info: latinmodern-math scale = 1.037736795366909.
+
+
+Package fontspec Info: latinmodern-math scale = 1.037633021687372.
+
+
+Package fontspec Info: latinmodern-math scale = 1.037736795366909.
+
+
+Package fontspec Info: latinmodern-math scale = 1.037633021687372.
+
+
+Package fontspec Info: latinmodern-math scale = 1.037736795366909.
+
+
+Package fontspec Info: latinmodern-math scale = 1.037633021687372.
+
+
+Package fontspec Info: latinmodern-math scale = 1.037736795366909.
+
+
+Package fontspec Info: latinmodern-math scale = 1.037633021687372.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.2-10.2,Font=latin
+modern-math.otf,Style=MathScript},{Size=-7.2,Font=latinmodern-math.otf,Style=Ma
+thScriptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=0.9999,FontAdjustme
+nt={\fontdimen
+(fontspec)             8\font =0.49811pt\relax \fontdimen 9\font
+(fontspec)             =2.49057pt\relax \fontdimen 10\font =2.07962pt\relax
+(fontspec)             \fontdimen 11\font =1.38226pt\relax \fontdimen 12\font
+(fontspec)             =7.4717pt\relax \fontdimen 13\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <10.2->s*[1.037633021687372]"[latinmodern-math.otf]/OT:s
+cript=math;language=dflt;"<7.2-10.2>s*[1.037633021687372]"[latinmodern-math.otf
+]/OT:script=math;language=dflt;+ssty=0;"<-7.2>s*[1.037633021687372]"[latinmoder
+n-math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.49811pt\relax \fontdimen 9\font
+(fontspec)             =2.49057pt\relax \fontdimen 10\font =2.07962pt\relax
+(fontspec)             \fontdimen 11\font =1.38226pt\relax \fontdimen 12\font
+(fontspec)             =7.4717pt\relax \fontdimen 13\font =0pt\relax 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.037633021687372]"[latinmodern-math.otf]/OT:scrip
+t=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.49811pt\relax \fontdimen 9\font
+(fontspec)             =2.49057pt\relax \fontdimen 10\font =2.07962pt\relax
+(fontspec)             \fontdimen 11\font =1.38226pt\relax \fontdimen 12\font
+(fontspec)             =7.4717pt\relax \fontdimen 13\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 1
+42.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
+t line 142.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 142
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
+t line 142.
+
+Package unicode-math Warning: Using \overbracket and \underbracket from
+(unicode-math)                `mathtools' package.
+(unicode-math)                 
+(unicode-math)                 Use \Uoverbracket and \Uunderbracket for
+(unicode-math)                original `unicode-math' definition.
+
+
+Package unicode-math Warning: I'm going to overwrite the following commands
+(unicode-math)                from the `mathtools' package: 
+(unicode-math)                 
+(unicode-math)                     \dblcolon, \coloneqq, \Coloneqq, \eqqcolon.
+(unicode-math)                
+(unicode-math)                 
+(unicode-math)                 Note that since I won't overwrite the other
+(unicode-math)                colon-like commands, using them will lead to
+(unicode-math)                inconsistencies.
+
+\AtBeginShipoutBox=\box54
+Package hyperref Info: Link coloring ON on input line 142.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/namere
+f.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/refcount/refcou
+nt.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/gettitlestrin
+g/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count429
+)
+LaTeX Info: Redefining \ref on input line 142.
+LaTeX Info: Redefining \pageref on input line 142.
+LaTeX Info: Redefining \nameref on input line 142.
+(./Mquinho_2020_Planejamento_Aula.out) (./Mquinho_2020_Planejamento_Aula.out)
+\@outlinefile=\write4
+\openout4 = `Mquinho_2020_Planejamento_Aula.out'.
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 142.
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/m/n' in size <12> no
+t available
+(Font)              size <10> substituted on input line 142.
+
+LaTeX Font Info:    Font shape `TU/LatinModernMonoLight(0)/m/n' will be
+(Font)              scaled to size 10.37735pt on input line 142.
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/m/it' in size <12> n
+ot available
+(Font)              size <10> substituted on input line 142.
+
+LaTeX Font Info:    Font shape `TU/LatinModernMonoLight(0)/m/it' will be
+(Font)              scaled to size 10.37735pt on input line 142.
+LaTeX Font Info:    Font shape `TU/LatinModernMonoLight(0)/m/sl' in size <12> n
+ot available
+(Font)              Font shape `TU/LatinModernMonoLight(0)/m/it' tried instead 
+on input line 142.
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/m/it' in size <12> n
+ot available
+(Font)              size <10> substituted on input line 142.
+
+LaTeX Font Info:    Font shape `TU/LatinModernMonoLight(0)/m/it' will be
+(Font)              scaled to size 10.37735pt on input line 142.
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/m/scsl' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/m/sc' instead on input li
+ne 142.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/m/sc' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/m/n' instead on input lin
+e 142.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/b/n' in size <12> no
+t available
+(Font)              size <10> substituted on input line 142.
+
+LaTeX Font Info:    Font shape `TU/LatinModernMonoLight(0)/b/n' will be
+(Font)              scaled to size 10.37735pt on input line 142.
+LaTeX Font Info:    Font shape `TU/LatinModernMonoLight(0)/b/it' will be
+(Font)              scaled to size 12.45282pt on input line 142.
+LaTeX Font Info:    Font shape `TU/LatinModernMonoLight(0)/b/sl' in size <12> n
+ot available
+(Font)              Font shape `TU/LatinModernMonoLight(0)/b/it' tried instead 
+on input line 142.
+LaTeX Font Info:    Font shape `TU/LatinModernMonoLight(0)/b/it' will be
+(Font)              scaled to size 12.45282pt on input line 142.
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/b/scsl' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/b/sc' instead on input li
+ne 142.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/b/sc' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/b/n' instead on input lin
+e 142.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/bx/sc' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/b/sc' instead on input li
+ne 142.
+
+LaTeX Font Info:    Font shape `TU/LatinModernMonoLight(0)/bx/it' in size <12> 
+not available
+(Font)              Font shape `TU/LatinModernMonoLight(0)/b/it' tried instead 
+on input line 142.
+LaTeX Font Info:    Font shape `TU/LatinModernMonoLight(0)/b/it' will be
+(Font)              scaled to size 12.45282pt on input line 142.
+LaTeX Font Info:    Font shape `TU/LatinModernMonoLight(0)/bx/sl' in size <12> 
+not available
+(Font)              Font shape `TU/LatinModernMonoLight(0)/bx/it' tried instead
+ on input line 142.
+LaTeX Font Info:    Font shape `TU/LatinModernMonoLight(0)/bx/it' in size <12> 
+not available
+(Font)              Font shape `TU/LatinModernMonoLight(0)/b/it' tried instead 
+on input line 142.
+LaTeX Font Info:    Font shape `TU/LatinModernMonoLight(0)/b/it' will be
+(Font)              scaled to size 12.45282pt on input line 142.
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/bx/scsl' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/bx/sc' instead on input l
+ine 142.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/bx/sc' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/bx/n' instead on input li
+ne 142.
+
+LaTeX Font Info:    Font shape `TU/LatinModernMonoLight(0)/bx/n' in size <12> n
+ot available
+(Font)              Font shape `TU/LatinModernMonoLight(0)/b/n' tried instead o
+n input line 142.
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/b/n' in size <12> no
+t available
+(Font)              size <10> substituted on input line 142.
+
+LaTeX Font Info:    Font shape `TU/LatinModernMonoLight(0)/b/n' will be
+(Font)              scaled to size 10.37735pt on input line 142.
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/sbx/sc' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/sb/sc' instead on input l
+ine 142.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/sb/n' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/m/n' instead on input lin
+e 142.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/sb/it' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/sb/n' instead on input li
+ne 142.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/sb/n' in size <12> n
+ot available
+(Font)              size <10> substituted on input line 142.
+
+LaTeX Font Info:    Font shape `TU/LatinModernMonoLight(0)/sb/n' will be
+(Font)              scaled to size 10.37735pt on input line 142.
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/sb/sl' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/sb/it' instead on input l
+ine 142.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/sb/it' in size <12> 
+not available
+(Font)              size <10> substituted on input line 142.
+
+LaTeX Font Info:    Font shape `TU/LatinModernMonoLight(0)/sb/it' will be
+(Font)              scaled to size 10.37735pt on input line 142.
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/sb/scit' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/sb/sc' instead on input l
+ine 142.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/sb/sc' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/sb/n' instead on input li
+ne 142.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/sbc/sc' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/c/sc' instead on input li
+ne 142.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/c/n' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/m/n' instead on input lin
+e 142.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/c/it' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/c/n' instead on input lin
+e 142.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/c/n' in size <12> no
+t available
+(Font)              size <10> substituted on input line 142.
+
+LaTeX Font Info:    Font shape `TU/LatinModernMonoLight(0)/c/n' will be
+(Font)              scaled to size 10.37735pt on input line 142.
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/c/sl' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/c/it' instead on input li
+ne 142.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/c/it' in size <12> n
+ot available
+(Font)              size <10> substituted on input line 142.
+
+LaTeX Font Info:    Font shape `TU/LatinModernMonoLight(0)/c/it' will be
+(Font)              scaled to size 10.37735pt on input line 142.
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/c/scit' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/c/sc' instead on input li
+ne 142.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/c/sc' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/c/n' instead on input lin
+e 142.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/lc/sc' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/l/sc' instead on input li
+ne 142.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/l/n' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/m/n' instead on input lin
+e 142.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/l/it' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/l/n' instead on input lin
+e 142.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/l/n' in size <12> no
+t available
+(Font)              size <10> substituted on input line 142.
+
+LaTeX Font Info:    Font shape `TU/LatinModernMonoLight(0)/l/n' will be
+(Font)              scaled to size 10.37735pt on input line 142.
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/l/sl' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/l/it' instead on input li
+ne 142.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/l/it' in size <12> n
+ot available
+(Font)              size <10> substituted on input line 142.
+
+LaTeX Font Info:    Font shape `TU/LatinModernMonoLight(0)/l/it' will be
+(Font)              scaled to size 10.37735pt on input line 142.
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/l/scit' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/l/sc' instead on input li
+ne 142.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/l/sc' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/l/n' instead on input lin
+e 142.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/m/ui' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/m/n' instead on input lin
+e 142.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/bx/ui' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/bx/n' instead on input li
+ne 142.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernMonoLight(0)/m/In' undefined
+(Font)              using `TU/LatinModernMonoLight(0)/m/n' instead on input lin
+e 142.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includefoot 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=701.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package biblatex Info: Trying to load language 'brazil' -> 'brazil-abnt'...
+Package biblatex Info: ... file 'brazil-abnt.lbx' found.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex-abnt/b
+razil-abnt.lbx
+File: brazil-abnt.lbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
+
+Package biblatex Warning: File 'brazilian-abnt-abnt.lbx' not found!
+(biblatex)                Ignoring mapping 'brazilian-abnt' -> 'brazilian-abnt-
+abnt'.
+
+Package biblatex Info: Trying to load language 'brazilian-abnt'...
+Package biblatex Info: ... file 'brazilian-abnt.lbx' found.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex-abnt/b
+razilian-abnt.lbx
+File: brazilian-abnt.lbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
+Package biblatex Info: Trying to load language 'brazilian' -> 'brazilian-abnt'.
+..
+Package biblatex Info: ... file 'brazilian-abnt.lbx' found.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex-abnt/b
+razilian-abnt.lbx
+File: brazilian-abnt.lbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
+Package biblatex Info: Trying to load language 'brazilian'...
+Package biblatex Info: ... file 'brazilian.lbx' found.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/br
+azilian.lbx
+File: brazilian.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+)))
+Package biblatex Info: Trying to load language 'brazilian-abnt'...
+Package biblatex Info: ... file 'brazilian-abnt.lbx' found.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex-abnt/b
+razilian-abnt.lbx
+File: brazilian-abnt.lbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
+Package biblatex Info: Trying to load language 'brazilian' -> 'brazilian-abnt'.
+..
+Package biblatex Info: ... file 'brazilian-abnt.lbx' found.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex-abnt/b
+razilian-abnt.lbx
+File: brazilian-abnt.lbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
+Package biblatex Info: Trying to load language 'brazilian'...
+Package biblatex Info: ... file 'brazilian.lbx' found.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/br
+azilian.lbx
+File: brazilian.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'brazil'...
+Package biblatex Info: ... file 'brazil.lbx' found.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/br
+azil.lbx
+File: brazil.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'brazilian'...
+Package biblatex Info: ... file 'brazilian.lbx' found.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/br
+azilian.lbx
+File: brazilian.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+)))
+Package biblatex Info: Trying to load language 'brazil'...
+Package biblatex Info: ... file 'brazil.lbx' found.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/br
+azil.lbx
+File: brazil.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'brazilian' -> 'brazilian-abnt'.
+..
+Package biblatex Info: ... file 'brazilian-abnt.lbx' found.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex-abnt/b
+razilian-abnt.lbx
+File: brazilian-abnt.lbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
+Package biblatex Info: Trying to load language 'brazilian'...
+Package biblatex Info: ... file 'brazilian.lbx' found.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/br
+azilian.lbx
+File: brazilian.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'brazil'...
+Package biblatex Info: ... file 'brazil.lbx' found.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/br
+azil.lbx
+File: brazil.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'brazilian'...
+Package biblatex Info: ... file 'brazilian.lbx' found.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/br
+azilian.lbx
+File: brazilian.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+))))))
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `Mquinho_2020_Planejamento_Aula.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'Mquinho_2020_Planejamento_Aula.bbl' found.
+(./Mquinho_2020_Planejamento_Aula.bbl)
+Package biblatex Info: Reference section=0 on input line 142.
+Package biblatex Info: Reference segment=0 on input line 142.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 20.74pt on input line 144.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 144.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 24.88pt on input line 144.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
+(Font)              scaled to size 24.88pt on input line 144.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 144.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 14.94337pt on input line 144.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 10.37735pt on input line 144.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 7.26414pt on input line 144.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+44.
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 14.9449pt on input line 144.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.37842pt on input line 144.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.2649pt on input line 144.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 14.94183pt on input line 144.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 10.37628pt on input line 144.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.2634pt on input line 144.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 144
+.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.f
+d
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 144
+.
+
+(c:/Users/Virgilio/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.f
+d
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 11.99997pt on input line 144.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.18867pt on input line 144.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.18921pt on input line 144.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.18814pt on input line 144.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 144.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 8.39998pt on input line 144.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 170.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/it' will be
+(Font)              scaled to size 12.0pt on input line 174.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 8.71696pt on input line 174.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 6.22641pt on input line 174.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 12.4541pt on input line 174.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.71785pt on input line 174.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.22705pt on input line 174.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 12.45154pt on input line 174.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 8.71606pt on input line 174.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.22577pt on input line 174.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 174.
+
+[1
+
+] [2]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 288.
+
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
+(Font)              scaled to size 12.0pt on input line 297.
+[3]
+
+LaTeX Warning: Empty bibliography on input line 376.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 378.
+[4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 378.
+(./Mquinho_2020_Planejamento_Aula.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 378.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 378.
+Package rerunfilecheck Info: File `Mquinho_2020_Planejamento_Aula.out' has not 
+changed.
+(rerunfilecheck)             Checksum: A0785A773CA91F3F3C8921FF322610CA;2990.
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 2.0pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                Mquinho_2020_Planejamento_Aula
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'Mquinho_2020_Planejamento_Aula.run.xm
+l'.
+\openout1 = `Mquinho_2020_Planejamento_Aula.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 378.
+ ) 
+Here is how much of TeX's memory you used:
+ 26965 strings out of 481675
+ 500540 string characters out of 5930989
+ 1395653 words of memory out of 5000000
+ 43661 multiletter control sequences out of 15000+600000
+ 542700 words of font info for 113 fonts, out of 8000000 for 9000
+ 16 hyphenation exceptions out of 8191
+ 60i,11n,121p,953b,4082s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on Mquinho_2020_Planejamento_Aula.pdf (4 pages).
