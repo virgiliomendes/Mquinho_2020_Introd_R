@@ -40,6 +40,8 @@ Pesquisador do Projeto de Pesquisa Media Bias e ex-data analyst da Quaest Consul
 [<img align="left" alt="Virgilio Mendes | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter2]
 [<img align="left" alt="Virgilio Mendes | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin2]
 
+<br />
+
 
 ### Objetivo do Curso:
 Este curso oferece uma apresentação de uma das ferramentas mais poderosas em análise de dados, o R. O curso proposto é uma introdução que permitirá ao aluno ou aluna dominar os básicos para a manipulação e visualização de dados, ou se aventurar em um trabalho com modelos mais sofisticados. Não é necessária nenhuma familiaridade ou experiência prévia com R, partiremos do básico e cobriremos as principais funções e recursos que um profissional necessita para se iniciar na área.
@@ -61,6 +63,10 @@ Serão **5** aulas, de 3h de duração cada (total de **15h**), organizadas da s
 
 <br />
 <br />
+
+[![ForTheBadge built-with-science](http://ForTheBadge.com/images/badges/built-with-science.svg)](https://GitHub.com/Naereen/)
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
+
 
 [researchgate]: https://www.researchgate.net/profile/Eduardo_Ryo_Tamaki
 [website]: https://ttytamaki.github.io
