@@ -30,7 +30,6 @@ Foco na área de Comportamento Político e especialista em Populismo. Tem experi
 ****
 
 <br />
-<br />
 
 **Virgílio Mendes**([virgilioebm@gmail.com](mailto:virgilioebm@gmail.com))
 [*Lattes*](http://lattes.cnpq.br/3781647781988333)
