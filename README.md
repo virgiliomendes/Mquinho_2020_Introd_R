@@ -42,6 +42,8 @@ Pesquisador do Projeto de Pesquisa Media Bias e ex-data analyst da Quaest Consul
 [<img align="left" alt="Virgilio Mendes | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter2]
 [<img align="left" alt="Virgilio Mendes | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin2]
 
+<br />
+
 ****
 
 <br />
