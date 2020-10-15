@@ -1,0 +1,45 @@
+ %\documentclass[a4paper, oneside, 12pt]{article}
+ 
+ \usepackage{mathtools}
+ \usepackage[brazil]{babel}
+ \usepackage{indentfirst}
+ \usepackage{ragged2e}
+ \usepackage{enumitem}
+
+\usepackage{hyperref}
+\hypersetup{pdftitle={\@title},pdfauthor={\@author}, breaklinks=true,linktoc=page, bookmarksopen=false,bookmarksnumbered=true, pdfstartview={XYZ null null 1}, bookmarksdepth=4,
+  	colorlinks=true, linkcolor=main, filecolor=main, urlcolor=main, citecolor=main,}
+
+\usepackage[htt]{hyphenat} %To break long \texttt text
+\usepackage[bottom]{footmisc} %Para fixar as notas de rodapé no final da página.  
+\usepackage{footnotebackref}
+  
+\usepackage{xcolor}
+\definecolor{main}{rgb}{0.0, 0.5, 1.0}
+
+\usepackage{geometry}
+\geometry{top=2cm, bottom=2cm, left=2cm, right=2cm, includefoot}
+
+\setcounter{secnumdepth}{2} %Numerar seções e subseções (1 se somente seções)
+
+\usepackage{titlesec}
+\titlespacing*{\section}
+{0pt}{10pt}{10pt}
+\titlespacing*{\subsection}
+{0pt}{10pt}{10pt}
+\titlespacing*{\subsubsection}
+{0pt}{10pt}{10pt}
+
+\titleformat*{\section}{\large \bfseries}
+\titleformat*{\subsection}{\normalsize \bfseries}
+\titleformat*{\subsubsection}{\setmainfont{TeX Gyre Pagella}\scshape\bfseries}
+
+\usepackage{setspace}
+
+\newcommand{\titulo}[1]{\footnotesize MQuinho 2020 \\
+                    \huge Introdução ao R \\
+                    \textbf{#1}}
+
+\newcommand{\autor}[2]{\Large #1\thanks{E-mail: #2}}
+
+\AtEndDocument{\nocite{*}}  

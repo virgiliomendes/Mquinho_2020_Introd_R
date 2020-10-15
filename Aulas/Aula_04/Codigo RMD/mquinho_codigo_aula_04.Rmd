@@ -1,17 +1,36 @@
 ---
-title: "Curso GGPLOT2 - Estatística UFMG"
-author: "Virgilio"
-date: "29/05/2019"
-output: html_document
-editor_options:
-  chunk_output_type: inline
+title: \titulo{Aula 04 | Visualização de Dados}
+author:
+  - Virgílio Mendes^[DCP | UFMG, virgilioebm@gmail.com]
+  - Eduardo Tamaki^[DCP | UFMG, eduardo.rtamaki@gmail.com]
+date: \today
+documentclass: article
+classoption: oneside
+papersize: a4
+fontsize: 12pt
+output:
+  pdf_document:
+    includes:
+      in_header: preamble.tex
+      before_body: body.tex
+    latex_engine: xelatex
+    fig_caption: true
+    dev: cairo_pdf 
+
 ---
 
+
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(knitr, tidyverse, devtools, formatR)
+opts_chunk$set(echo = TRUE, fig.path = "results/", fig.align = "center", warning = FALSE, message = FALSE, comment = NA, 
+results = "makeup", fig.pos = "H", out.width = "90%", fig.height = 4, space = TRUE, collapse = FALSE, tidy = FALSE, tidy.opts=list(width.cutoff=70))
+options(width = 90)
 ```
 
-## Curso GGPLOT2 - Estatística UFMG - 29 de maio de 2019
+
+
+## Introdução
 
 O curso visa explanar e demonstrar as aplicações mais básicas do pacote GGPLO2. As aplicações do pacote permitem apresentações mais dinâmicas e elaboradas, com grande versatilidade e apresentação de análises de bancos de dados diversos. 
 Todos os parâmetros executados nas funções do GGPLOT são estruturados em "layers" (camadas) seguindo uma lógica gramatical específica, cada qual responsável por uma funcionalidade específica, como mostra a disposição a seguir:
@@ -315,3 +334,8 @@ ggplot(bd, aes(x = Species, y = Petal.Length, fill = Species)) +
   theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5)) 
   
 ```
+
+
+## Referências
+
+Para acessar o repositório das aulas clique [aqui](https://github.com/virgiliomendes/Mquinho_2020_Introd_R).

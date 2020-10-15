@@ -1,187 +1,342 @@
-###############################################################
-#######################   Estatistica   #######################
-###############################################################
-#######################    29-05-2019    ######################
-###############################################################
-################ Script: Virgilio de A. Mendes ################
-################### Ciências Sociais - UFMG ###################
-###############################################################
+# ---
+#
+# Aula 04 - Plotando Dados
+# Introdução ao R - MQuinho 2020
+#
+# ---
+#
+# Professores:
+# Eduardo Ryô Tamaki
+# e-mail: eduardo.rtamaki@gmail.com
+# Virgílio Mendes
+# e-mail: virgilioebm@gmail.com
+#
+# Monitores:
+# Laura Beghini
+# e-mail: laurabeghinic@gmail.com 
+# Rômulo Damasceno
+# e-mail: romulo.damasceno@hotmail.com 
+# ---
+# 22/10/2020
+# ---
+#
+# Material de Apoio:
+# Link das aulas: https://github.com/virgiliomendes/Mquinho_2020_Introd_R
 
+# TOPICOS:
 
-# executando a LIBRARY
+#         - Ambiente do RStudio
+#              * Funções
+#                  * Recursos do RStudio (ferramentas, etc)
+# 
+#         - Operações Básicas
+#         - Objetos (classe e tipos de dados)
+#         - Importando Data Sets
+#         - Estatísticas e investigações do banco de dados
+
+## PREAMBULO -----------------------------------------------------------
+
+# Lendo o Pacote:
+## Assim como na aula do Dplyr, temos duas formas de fazer isso:
+### 1) ggplot2 está contido no pacote tidyverse, então podemos simplesmente carregar o pacote tidyverse:
+library(tidyverse)
+
+### 2) Ou podemos simplesmente chamar o pacote diretamente:
 library(ggplot2)
 
-#definindo diretorio para executar e salvar arquivos
-setwd("C:/Users/Virgilio/Desktop/curso GGPLOT/Curso_GGPLOT2_-_Estatística_UFMG_files/Curso GGPLO2 - Stat UFMG")
 
-# importando o banco de dados IRIS e nomeando ele de BD
-bd = iris
+# Próximo passo, definir o diretorio para executar e salvar os arquivos
+setwd("C:/Users/Virgilio/Desktop/") # Lembre-se da barra invertida!
 
-#Plotando um grafico de dispersão 
-ggplot(bd, aes(x = Sepal.Length, y = Sepal.Width)) +
+# Próximo passo, importar o banco de dados IRIS e nomeando ele de db
+db = iris
+
+names(db)
+dim(db)
+str(db)
+View(db)
+
+
+##--------------------------------------------------------------------------
+
+# Ggplot2
+
+?ggplot()
+
+
+## Gráfico de Dispersão:
+
+### No Ggplot2 você começa um plot com a função "ggplot()", e então vai adicionando camadas.
+### Não há um "padrão", mas a ação de adicionar camadas lhe permite maior controle.
+ggplot(data = db, aes(x = X, y = Y))
+
+
+### São justamente essas camadas que vão definir qual tipo de gráfico estamos querendo plotar.
+### Camadas são adicionadas usando "+"
+#### Por exemplo, vamos plotar um gráfico de dispersão de duas variáveis do nosso banco de dados Iris:
+ 
+ggplot(db, aes(x = Sepal.Length, y = Sepal.Width)) + # Função Base
+  geom_point(size = 2, shape = 1) # 1a Camada: Definindo o tipo de gráfico
+
+### Ótimo! Mas o gráfico assim não fica muito bom, certo?
+### E se quisermos complementa-lo, colorindo de acordo com os tipos de planta?
+#### Fazemos isso através de um parâmetro que adicionamos na função base, dentro do parâmetro aes():
+
+ggplot(db, aes(x = Sepal.Length, y = Sepal.Width, col = Species)) +
   geom_point(size = 2, shape = 1)
 
-#salva grafico no diretorio selecionado
+#### Podemos definir o parâmetro aesthetic na 1a camada, onde especificamos o tipo de gráfico: 
+ggplot(db) +
+  geom_point(aes(x = Sepal.Length, y = Sepal.Width, col =  Species), shape = 1)
+
+#### O Parâmetro "shape" serve para definir o formato dos marcadores.
+ggplot(db) +
+  geom_point(aes(x = Sepal.Length, y = Sepal.Width, col =  Species), size = 2, shape = 1)
+
+#### Por fim, para customizarmos mais seu gráfico, podemos fazer com que não só a cor, mas o formato
+#### e o tamanho dos marcadores seja de acordo com os tipos de planta:
+ggplot(db) +
+  geom_point(aes(x = Sepal.Length, y = Sepal.Width, col =  Species, shape = Species, size = Species),
+             size = 2)
+
+#### Só para mostrar: Não faz diferença se você prefere especificar o X e o Y na função raiz ou na
+#### 1a camada:
+ggplot(db, aes(x = Sepal.Length, y = Sepal.Width)) +
+  geom_point(aes(col =  Species, shape = Species, size = Species), size = 3)
+
+#### Para acrescentarmos um título adicionamos uma camada chamda "ggtitle()":
+ggplot(db, aes(x = Sepal.Length, y = Sepal.Width)) +
+  geom_point(aes(col =  Species, shape = Species, size = Species), size = 3) +
+  ggtitle("Grafico de Dispersão")
+
+
+### Se quisermos salvar o gráfico no diretorio selecionado:
 ggsave("r plot1 iris.pdf")
 
-# puxa os nomes das variaveis do banco selecionado
-names(bd)
 
-#Plotando um grafico de dispersão 
-ggplot(bd, aes( x = Sepal.Length, y = Sepal.Width, col = Species)) +
-  geom_point(size = 2, shape = 1) 
 
-ggsave("r plot2 iris.pdf")
+## Boxplot:
 
-# bloxpot
-ggplot(bd, aes(x = Species, y = Sepal.Width)) +
+ggplot(db, aes(x = Species, y = Sepal.Width)) +
   geom_boxplot()
 
-ggsave("r plot3 iris.pdf")
+
+ggplot(db) +
+  geom_boxplot(aes(x = Species, y = Sepal.Width))
 
 
-#plotando histograma
-ggplot(bd, aes(x = Sepal.Length,fill = factor(Sepal.Length))) + 
+### Para preenchermos o gráfico, podemos usar o parâmetro fill(), que deverá ser especificado dentro
+### do parâmetro aes():
+
+ggplot(db, aes(x = Species, y = Sepal.Width, fill = Species)) +
+  geom_boxplot() 
+
+#### No entanto, usar um boxplot básico pode ser perigoso, devido a uma possível ilusão da distribuição
+#### dos dados. Para resolvermos esse problema, a função geom_jiter(), que pode ser acrescentada através
+#### de uma camada, nos ajuda a ver a distribuição individual EM CIMA do boxplot:
+
+ggplot(db, aes(x = Species, y = Sepal.Width, fill = Species)) +
+  geom_boxplot() +
+  geom_jitter(size = 1) +
+  ggtitle("Boxplot")
+
+
+
+
+## Histograma
+### Variável: Numérica
+
+### O histograma segue a mesma lógica dos demais. No entanto, não definimos a variável Y, pois a utilizada
+### é uma frequência simples da variável observada (x). Note que adicionamos a variável Sepal.Length como
+### um fator juntamente do parâmetro "fill()", isso faz com que os diversos valores do comprimento da
+### Sépala se transformerm em categorias, de forma com que preencham cada uma das barras do gráfico.
+ggplot(db, aes(x = Sepal.Length,fill = factor(Sepal.Length))) + 
   geom_histogram(bins = 10, col = "white")
 
-ggsave("histograma1.pdf")
+### Aqui temos o parâmetro "bins()" e "col()" dentro da camada "geom_histogram()":
+#### bins -> o número de "barras", de intervalos que teremos em nosso gráfico;
+#### col -> a cor do contorno de cada barra;
+ggplot(db, aes(x = Sepal.Length,fill = factor(Sepal.Length))) + 
+  geom_histogram(bins = 37, col = "black") +
+  ggtitle("Histograma")
 
-#Grafico de densidade
-ggplot(bd, aes(x = Sepal.Length, fill = Species)) +
+
+## Gráfico de Barras
+### Variável: Categórica
+
+### Temos aqui três parâmetros, presentes na primeira camada:
+### "size", "colour" e "alpha", que representa a opacidade das bordas das barras.
+#### Para isso usaremos o banco de dados mtcars, já presente no R.
+#### mtcars é um banco de dados que diz respeito ao consumo de combustível e outras 10 características
+#### de 32 carros.
+names(mtcars)
+
+### Vamos plotar um gráfico de barras de número de marchas por número de carbudares:
+ggplot(mtcars, aes(x = gear, fill = factor(carb))) +
+  geom_bar(size = 1.5, colour = "white", alpha = 0.6)
+
+ggplot(mtcars, aes(x = gear, fill = factor(carb))) +
+  geom_bar(size = .5, colour = "black", alpha = 1)
+
+
+## Grafico de Densidade
+### Agora voltaremos para o nosso banco de dados "db".
+### O gráfico de Densidade plota a densidade e a distribuição dos casos observados no banco por uma variável
+### específica, no caso, uma variável contínua.
+### Por exemplo, vamos verificar a densidade de ocorrências do Comprimento da Sépala, colorindo o gráfico
+### de acordo com o tipo de planta, para facilitar e melhorar nossa análise:
+
+ggplot(db, aes(x = Sepal.Length, fill = Species)) +
   geom_density(alpha = 0.5) 
 
-ggsave("grafico camadas1.pdf")
 
-#Grafico de Linha
+## Grafico de Linha
+### Aqui usaremos o banco de dados "swiss", já presente no R.
+### swiss é um banco de dados sobre fertilidade e indicadores socio-economicos para cada uma das 47 provincias
+### da Suíça que falam francês.
+#### Vamos plotar, então, um gráfico de linhas de Educação por "Examination" (% de selecionados que receberam
+#### as maiores notas nos exames do exército):
+
 ggplot(swiss, aes(x = Examination, y = Education)) +
   geom_line(size = 1)
 
-ggsave("grafico de linha IRIS1.pdf")
+#### Assim como os outros gráficos, podemos controlar o tamanho da linha, sua cor e o tipo de linha  
+#### através de: size, col e linetype
+ggplot(swiss, aes(x = Examination, y = Education)) +
+  geom_line(size = 1, col = "blue", linetype = 2)
 
-#Histograma com Nomes (titulos)
-ggplot(iris, aes(x = Sepal.Length)) + geom_histogram(bins = 10, col = "white") +
+
+
+
+
+# Para finalizar a aula, podemos customizar ainda mais nossos gráficos adicionando mais camadas e usando
+# outros parâmetros:
+
+## Histograma:
+### labs() - Camada para definir os labels, os rótulos do gráfico:
+          ## title > Título do gráfico;
+          ## subtitle > Subtítulo do Gráfico;
+          ## x = Rótulo do Eixo X;
+          ## y = Rótulo do Eixo Y;
+
+ggplot(iris, aes(x = Sepal.Length, fill = Species)) + 
+  geom_histogram(bins = 10, col = "white") +
   labs(title = "Histograma de Comprimento da Sépala",
        subtitle = "Gráfico", x = "Comprimento da Sépala",
        y = "Frequência")
 
-ggsave("Histograma Comprimento da Sepala1.pdf")
+## Gráfico de Barras:
+### Na 1a camada, o parâmetro "width" nos permite controlar a largura das barras;
+### A 2a camada, "scale_x_continuous" nos permite customizar a escala contínua de X: aqui,
+#### o parâmetro "break" controla o intervalo do eixo X, enquanto o parâmetro "labels" controla o rótulo
+#### dos valores do eixo X;
+### A 3a camada, "labs", como demonstrada anteriormente, controla os rótulos do gráfico. Aqui temos uma
+#### adição, o parâmetro "fill" que nos permite customizar o rótulo da variável usada para preencher o
+#### gráfico (definida por "fill" na função base ou na 1a camada), em outras palavras, nos permite mudar
+#### o nome da nossa legenda;
+### A 4a camada nos permite controlar e mudar o tema do gráfico, alguns exemplos são:
+#### + themes_gray()
+#### + themes_dark()
+#### + themes_bw()
+#### + themes_classic()
+### Por fim, a 5a camada e seu parâmetro: "theme(legend.position = )"; nos permitem controlar a POSIÇÃO
+#### da legenda.
 
-# Plotando com "Stats"
-ggplot(bd, aes(sample = Sepal.Width)) +
-  stat_qq()
+plot <- ggplot(mtcars, aes(x = gear, fill = factor(carb))) +
+  geom_bar(size = .5, colour = "black", alpha = 1, width = .5) +
+  scale_x_continuous(breaks = mtcars$gear,
+                     labels = mtcars$gear) +
+  labs(title = "Grafico de Barras de Número de Marchas por Número de Carburadores",
+       subtitle = "Melhor Curso de R do Brasil",
+       x = "Número de Marchas",
+       y = "Contagem",
+       fill = "Número de Carburadores") +
+  theme_minimal() + 
+  theme(legend.position = "top") +  scale_fill_brewer(palette = "YlOrBr") 
 
-ggsave("grafico IRISstats.pdf")
+plot
+print(plot)
 
-#Grafico de dispersão - Stats com escala
-ggplot(bd, aes(x = Sepal.Length, y = Sepal.Width)) +
-  geom_point() +
-  scale_x_continuous(limits = c(4, 7), breaks = c(4, 5, 6)) +
-  scale_y_continuous(limits = c(0, 7), breaks = c(4, 5, 6)) +
-  labs(title = "Grafico de Dispersão de Comprimento da Sépala por Largura da Sépala",
-       subtitle = "Gráfico", x = "Comprimento da Sépala",
-       y = "lagura da Sépala")
 
-ggsave("dispersãoIRIS1.pdf", width = 8, height = 4)
 
+### Se quisermos mudar as cores que são usadas para preencher o gráfico, apesar de estarmos preenchendo ele
+### com a variável "carb", podemos usar uma camada com a função scale_fill_brewer().
+#### Para isso, primeiramente temos que instalar o pacote RColorBrewer:
+
+#install.packages("RColorBrewer")
+library(RColorBrewer)
+
+### Após feita a instalação, escolhemos a paleta de cor:
+display.brewer.all()
+### E depois acrescentamos a camada:
+
+ggplot(mtcars, aes(x = gear, fill = factor(carb))) +
+  geom_bar(size = .5, colour = "black", alpha = 1, width = .5) +
+  scale_x_continuous(breaks = mtcars$gear,
+                     labels = mtcars$gear) +
+  labs(title = "Grafico de Barras de Número de Marchas por Número de Carburadores",
+       subtitle = "Melhor Curso de R do Brasil",
+       x = "Número de Marchas",
+       y = "Contagem",
+       fill = "Número de Carburadores") +
+  theme_minimal() + 
+  theme(legend.position = "top") +  
+  scale_fill_brewer(palette = "YlOrBr") 
+
+
+## Boxplot:
+### Uma alternativa é especificar os rótulos da legenda usando a função "scale_fill_brewer"; a lógica
+### é a mesma de quando utilizamos "scale_x_continuous" ou "scale_x_discrete".
+### Dessa vez temos o acréscimo dos parâmetros "plot.title" e "plot.subtitle", na ultima camada:
+#### Esses parâmetros não fazem nada mais do que controlar a posição do título e do subtítulo;
+
+ggplot(db, aes(x = Species, y = Sepal.Width, fill = Species)) +
+  geom_boxplot() +
+  geom_jitter(size = 1) +
+  ggtitle("Boxplot") + 
+  scale_fill_brewer(palette = "Set2", 
+                    labels = c("Setosa", "Versicolor", "Virginica")) + 
+  scale_x_discrete(lab = NULL) + 
+  labs(title = "Boxplot Largura da Pétala por Tipo de Planta", 
+       subtitle = "Melhor curso de R do Brasil",
+       x = "", 
+       y = "Largura da Pétala", 
+       fill = "Tipo de Planta") + 
+  theme_minimal() + 
+  theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5)) 
+
+
+
+
+#################
+
+# Por fim, para salvar um gráfico podemos adicionar uma camada com 
+# a seguinte função: 
+ggsave(filename = "grafico.png",
+       width = 6, height = 2.8)
+
+
+
+
+
+
+
+### SE DER TEMPO ###
+##########################################################################
+## Extra
 
 #Geom_ Smooth - grafico de tendencia
-ggplot(bd, aes(x = Sepal.Length, y = Petal.Length)) +
+ggplot(db, aes(x = Sepal.Length, y = Petal.Length)) +
   geom_point() +
   geom_smooth()
 
 ggsave("grafico de tendencia1.pdf")
 
 # grafico de tendencia por especie
-ggplot(bd, aes(x = Sepal.Length, y = Petal.Length, col = Species)) +
+ggplot(db, aes(x = Sepal.Length, y = Petal.Length, col = Species)) +
   geom_point() +
   geom_smooth(method = "lm")
 
 ggsave("grafico de tendencia por especie.pdf")
-
-####################################################
-
-# Importando o banco MTCARS
-mtcars = mtcars
-
-#Puxando os nomes das variaveis
-names(mtcars)
-ggplot(mtcars, aes( x = gear, fill = factor(carb))) +
-  geom_bar(size = 1.5, colour = 'white', alpha = 0.6) 
-
-ggsave("mtcars1.pdf")
-
-# Plotando   
-ggplot(mtcars, aes( x = gear, fill = factor(carb))) +
-  geom_bar(position = "fill") 
-
-ggsave("mtcars2.pdf")
-
-
-
-#Facets- tirar a escala do X e Y
-ggplot(mtcars, aes(x = mpg, y = disp)) + geom_point() +
-  facet_grid(.~am, scales = "free") +
-  geom_smooth(method = "lm") 
-
-ggsave("Mtcarsvertical.pdf")
-#Facets- tirar a escala do X e Y
-ggplot(mtcars, aes(x = mpg, y = disp)) + geom_point() +
-  facet_grid(am~., scales = "free") +
-  geom_smooth(method = "lm")
-
-ggsave("MtcarsHorizontal.pdf")
-
-# o "~." depois do AM separa duas categorias discretas na horizontal
-# o ".~" antes do AM separa duas categorias discretas na vertical
-
-
-
-
-#################
-# como salvar arquivos de grafico pelo ggplot
-ggsave(filename = "grafico.png",
-       width = 6, height = 2.8)
-
-# Personalizando o grafico
-
-#tipos de  temas para plotagem de grafico
-# + themes_gray ()
-# + theme_dark ()
-# + theme_bw ()
-# + theme_classic ()
-
-
-# Legendas:
-
-# + theme (legend.positions = "top")
-
-
-# Paleta de cores:
-library(RColorBrewer)
-display.brewer.all()
-
-
-# + scale_fill_brewer(palette = "Dark2") - > substituir "Dark2" pela paleta de cor que desejar
-
-
-
-
-# Teste de BoxPlot
-
-# bloxpot
-ggplot(bd, aes(x = Species, y = Petal.Length, fill = Species)) +
-  geom_boxplot() +
-  theme_classic() +
-  scale_fill_brewer(palette = "Set1",
-                    labels=c("Setosa", "Versicolor", "Virginica")) +
-  scale_x_discrete(lab=NULL) +
-  labs(title = "Boxplot", subtitle = "Largura da Pétala por Espécie",
-       x = "", y = "Lagura da Pétala", fill = "Especie") +
-  theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5)) 
-  
-
-ggsave("bloxpotEXERCICIO.pdf", width = 6, height = 4)
-
-
-
+##########################################################################
 
