@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1602729956656.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1602720362",
+    "id" : "E504B601",
+    "lastKnownWriteTime" : 1602729921,
+    "last_content_update" : 1602729921,
+    "path" : "C:/Users/Virgilio/Desktop/MQuinho_2020_Introducao_ao_R/Aulas/Aula_01/mquinho_codigo_aula_01.R",
+    "project_path" : "mquinho_codigo_aula_01.R",
+    "properties" : {
+        "cursorPosition" : "26,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

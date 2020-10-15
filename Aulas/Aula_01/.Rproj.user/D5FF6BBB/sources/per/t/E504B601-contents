@@ -1,0 +1,297 @@
+# Capacitação: Introdução ao R - MEIOS JR
+# 25-07-2020
+# Virgilio de A. Mendes 
+# Ciência Política - UFMG
+# Aula 01
+
+# TOPICOS:
+
+#         - Ambiente do RStudio
+#              * Funções
+#                  * Recursos do RStudio (ferramentas, etc)
+# 
+#         - Operações Básicas
+#         - Objetos (classe e tipos de dados)
+#         - Importando Data Sets
+#         - Estatísticas e investigações do banco de dados
+
+# Duvidas ##############################################################
+
+??função
+
+# Clicar na tecla F1 quando o cursor estiver na palavra
+
+# Para dúvidas, consultar a comunidade: https://stackoverflow.com/
+
+
+
+# operações básicas ####################################################
+
+5 + 7 # soma
+5 - 2 # subtração
+5 * 2 # multiplicação
+5 / 2 # divisão
+5 %/% 2 # divisão inteira
+5 %% 2 # resto da divisão
+
+
+
+# sinais de atribuição #################################################
+
+# sinal de atribuição
+x <- 5
+x
+
+y = 5
+y
+# sinal de atribuição 
+
+# atribuindo ao objeto X o valor 1
+x <- 1
+x
+
+# atribuindo ao objeto y o valor 2
+y = 2
+y
+
+# atribuindo a z o resultado da subtração
+z = 40 - 30
+z
+Z # Mostrar que é Case sensitive
+
+# soma de objetos
+x + y
+2 * z
+
+# atribuindo a um objeto ob1 o resultado da divisão
+ob1 = z / y
+ob1
+
+
+# Character
+k <- "Oi, Meu nome é Virgilio"
+k/2 # Mostrar que não podemos fazer operações com Strings
+
+# operações com objetos
+x + y 
+x * y
+x / y
+
+
+# Vetores ##############################################################
+
+# Vetores
+
+x = c(6, 8, 10, 3) # comnado c() cria um vetor - função concatenar
+y = c(4, 6, 3, 5) 
+
+# operações com vetores devem ter vetores com o mesmo munero de elementos
+x + y # operações com vetores
+x - y
+x * y
+x / y
+
+# Vetores representam um conjunto de informação que é armazenado em uma ordem específica. Utilizamos
+# a função “c()”, que significa “concatenar”, para criar um vetor com multiplos valores, com virgulas os
+# separando.
+# Por exemplo, iremos criar aqui um vetor com a população mundial estimada, de acordo com levantamentos
+# da ONU, dos anos de 1950 a 2010:
+
+pop.mund <- c(2525779, 3026003, 3691173, 4449049, 5320817, 6127700,
+              6916183)
+
+pop.mund
+
+
+# A função c() também pode ser usada para concatenar VETORES
+pop.first <- c(2525779, 3026003, 3691173)
+pop.second <- c(4449049, 5320817, 6127700)
+pop.all <- c(pop.first, pop.second, 6916183)
+pop.all
+
+
+
+# Limpar Enviroment ####################################################
+
+# remove o objeto x do enviroment
+rm(x)
+
+
+# removem todos os objetos do enviroment
+rm(list = ls())
+
+rm(list = ls(all=T))
+
+# help para função remove (rm)
+?rm
+
+options(scipen = 999) # tira notação científica
+
+
+# Classe ###############################################################
+
+# comando para saber a classe do dado/vetor/conjunto
+class(x)
+# x é classe numeric = números que assumem casas decimais
+
+
+# Character ############################################################
+
+# dados do tipo character (texto)
+nome = "Virgilio"
+sobrenome = "Mendes"
+
+# chamando o objeto
+nome
+sobrenome
+# chamando a classe do objeto nome
+class(nome)
+
+
+# Manipulando Texto ####################################################
+
+# funções básicas para manipulação de texto
+
+# paste mostra objeto no console
+paste(nome, sobrenome)
+
+p1 = "Eu"
+p2 = "gosto"
+p3 = "de"
+p4 = "café"
+
+paste(p1, p2, p3, p4)
+
+# usando paste e separador com ,
+paste(p1, p2, p3, p4, sep = ",")
+
+
+frase = paste(p1, p2, p3, p4) # criando objeto da frase a partir do paste
+tolower(frase) # todos os caracteres em minusculo
+toupper(frase) # todos os caracteres em maiusculo
+frase
+
+grep("não!", frase) # função de buscar padrões de texto
+grep("gosto", frase)
+grep("escola", q) # busca padrões textuais
+grep("café", q) # busca padrões textuais
+
+
+gsub("gosto", "odeio", q) # substituição de caracteres
+gsub("de", "DE", frase) # função de substituição de caracteres (substituição de "de" por "DE")
+
+# estas são estruturas unidimencionais, vetores, 
+# que conjuntos de dados de apenas uma dimensão
+
+
+# Matrizes #############################################################
+
+# Linhas e colunas - Estruturas de dados bidimensionais
+
+# Matrizes e bancos de dados
+A = matrix(data = 1:16, nrow = 4, ncol = 4)
+A # criando matrix 4 por 4 (numeros de 1 a 16)
+
+# Linhas 
+# representação [1,]
+# Colunas 
+# representação [,1]
+A[2,4]
+
+
+# Data Frames ##########################################################
+
+# Data frames
+
+nome = c("Virgilio", "Marcos", "Amanda", "Ana")
+idade = c(18, 35, 20, 21)
+altura = c(1.71, 1.90, 1.60, 1.75)
+
+banco = data.frame(nome, idade, altura, stringsAsFactors=F)
+
+class(banco$nome) # Tira classe da variavel
+
+
+# Importando Bancos ####################################################
+
+# link: https://CRAN.R-project.org/package=dplyr
+# link: https://CRAN.R-project.org/package=questionr 
+
+#install.packages("dplyr")
+#install.packages("questionr")
+#install.packages("ggplot2")
+
+library(readxl) #  Read Excel Files
+library(questionr) # Functions to Make Surveys Processing Easier
+library(dplyr) # A Grammar of Data Manipulation
+
+# carregar banco de bados iris (inato do r)
+bd = iris
+
+# ver o diretorio de trabalho
+getwd()
+# setar diretório de trabalho
+setwd("C:/Users/Virgilio/Desktop/")
+
+
+# carrega banco em formato CSV com separador ";"
+read.csv2("Base de dados - CACS LINGUAS.xlsx")
+# carrega banco em formato CSV com separador ","
+read.csv("Base de dados - CACS LINGUAS.xlsx")
+
+# carrega banco em formato excel
+bd = read_excel("Base de dados - CACS LINGUAS.xlsx")
+
+
+
+# Estatísticas Descritivas #############################################
+
+
+# Mostra os nomes das variaveis
+names(bd)
+
+# Dimensões do bd
+dim(bd)
+
+# mostra os 6 primeiros casos
+head(bd)
+
+# mostra os 6 ultimos casos
+tail(bd)
+
+# tira a classe da variavel
+class(bd$Petal.Length)
+# tirar a classe do banco
+class(bd)
+
+# estrutura do bd
+str(bd)
+
+# tira media 
+mean(bd$Petal.Length, na.rm = T)
+
+# tirar mediana
+median(bd$Sepal.Width, na.rm = T)
+
+# desvio padrão
+sd(bd$Petal.Width, na.rm = T)
+
+# max
+max(bd$Sepal.Width)
+
+# min
+min(bd$Sepal.Length)
+
+# resume as informações da varaivel
+summary(bd$Sepal.Length)
+
+# Visualização do banco
+View(bd)
+
+
+
+# Fim ##################################################################
+
+
+
+
