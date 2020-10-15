@@ -112,7 +112,9 @@ banco$Idade[1:3]
 library(readxl) #  Read Excel Files
 library(questionr) # Functions to Make Surveys Processing Easier
 library(dplyr) # A Grammar of Data Manipulation
-
+library(foreign) # Leitura de arquivos (ex: SPSS, dta - Stata)
+library(writexl) # Exporta em Excel
+library(readr) # Write Data frame in different formats
 
 # Explicar as várias formas de importar e exportar dados
 
@@ -126,15 +128,27 @@ setwd("C:/Users/Virgilio/Desktop/")
 
 
 # carrega banco em formato CSV com separador ";"
-read.csv2("banco.csv")
+bd = read.csv2("dados_eleicao.csv")
 # carrega banco em formato CSV com separador ","
-read.csv("banco.csv")
+bd = read.csv("dados_eleicao.csv")
+
+# salva em formato CSV com separador ";"
+write_csv2(bd, "teste.csv")
+# salva em formato CSV com separador ","
+write_csv(bd, "teste.csv")
+
 
 # carrega banco em formato excel
 bd = read_excel("banco.xlsx")
 # quando há mais de uma sheet ou aba no arquivo excel, 
 # usar o comando ", sheet = <nome.da.aba>"
+write_xlsx(bd , "teste.xlsx")
 
+# carrega banco em formato RDS
+bd = readRDS("teste.RDS")
+# Salva em formato RDS
+write_rds(bd, "teste.RDS") # da funçao readr - mais eficiente
+saveRDS(bd, "teste.RDS") # R Base
 
 # Estatísticas Descritivas ---------------------------------------------
 
@@ -200,7 +214,17 @@ prop.table(table(bd$Sepal.Width, bd$Species))*100
 
 # para calcular 100% fechando na linha, 
 # usamos o parâmetro margin = 1
-round(prop.table(t1, margin = 1)*100, 2) # o numero 2 
+t2 = round(prop.table(t1, margin = 1)*100, 2) # o numero 2 
 
+# por defaul t2 é formato "table"
+# para exportar temos que converter em dataframe
+t2 = as.data.frame(t2)
+
+class(t2)
+
+# Salvando a tabela em Excel
+write_xlsx(t2 , "tabela1.xlsx")
+write_csv(t2 , "tabela1.csv")
+write_csv(t2 , "tabela1.csv")
 
 # Fim ##################################################################
