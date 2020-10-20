@@ -1,0 +1,65 @@
+
+# ---
+#
+# Aula 01 - Conhecendo o R
+# Introdução ao R - MQuinho 2020
+#
+# ---
+# Parte 2
+
+# Atribuindo valores a objetos
+x = "5"
+y = 5
+
+# Tira a classe do objeto y 
+class(y)
+
+
+# Characteres
+nome = "Eduardo"
+
+sobrenome <- "Tamaki"
+
+nome
+
+sobrenome
+
+class(nome)
+
+# Manipulando textos
+
+paste(nome, sobrenome)
+
+# limpa enviroment
+rm(list = ls())
+
+p1 = "Eu"
+p2 = "gosto"
+p3 = "de" 
+p4 = "café!"
+
+paste(p1, p2, p3, p4)
+
+# cola objetos com separador ","
+paste(p1, p2, p3, p4, sep = ",")
+
+ob1 = paste(p1, p2, p3, p4)
+ob1
+
+toupper(ob1)
+tolower(ob1)
+
+# padrões textuais
+grep("café!", ob1)
+grep("não", ob1)
+
+ob2 = gsub("gosto de", "odeio", ob1)
+
+
+gsub("de", "DE", ob1)
+
+
+# Limpa
+rm(list = ls())
+
+     

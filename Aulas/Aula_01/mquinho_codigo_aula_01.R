@@ -108,7 +108,7 @@ x / y
 x = c(6, 8, 10, 3) # comnado c() cria um vetor - função concatenar
 y = c(4, 6, 3, 5) 
 
-# operações com vetores devem ter vetores com o mesmo munero de elementos
+# operações com vetores devem ter vetores com o mesmo numero de elementos
 x + y # operações com vetores
 x - y
 x * y
