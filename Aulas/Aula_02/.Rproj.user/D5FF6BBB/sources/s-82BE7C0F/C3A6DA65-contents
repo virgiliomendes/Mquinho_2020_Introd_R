@@ -181,5 +181,10 @@ as.data.frame()
 
 
 
+# 
+summary(bd)
+
+bd$NUMERO_CAND[bd$NUMERO_CAND == 0] <- NA
+bd$ = na.omit(bd$NUMERO_CAND)
 
 
