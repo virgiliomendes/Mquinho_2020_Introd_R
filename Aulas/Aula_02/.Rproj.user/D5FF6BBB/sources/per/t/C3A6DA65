@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1603232267621.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2550538880",
+    "id" : "C3A6DA65",
+    "lastKnownWriteTime" : 1603242210,
+    "last_content_update" : 1603242210581,
+    "path" : "C:/Users/Virgilio/Desktop/Mquinho_2020_Introd_R/Aulas/Aula_02/codigo_02.R",
+    "project_path" : "codigo_02.R",
+    "properties" : {
+        "cursorPosition" : "171,0",
+        "scrollLine" : "164",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
