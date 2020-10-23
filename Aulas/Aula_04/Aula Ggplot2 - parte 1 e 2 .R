@@ -1,8 +1,49 @@
+## Aula 22/10
 
+## GGPLOT2
+
+## Limpando nosso Environment:
+rm(list = ls())
+
+## Instalando e Carregando o pacote do ggplot2:
+#install.packages("ggplot2") # quem já tem instalado não precisa rodar
 
 library(ggplot2)
 
-iris = iris
+## Banco de dados: iris
+
+## Função base do ggplot2:
+### aes = mapeamento dos dados (eixo x e eixo y)
+# estrutura de criação de graficos:  ggplot(data = banco de dados, aes(x = X, y = Y))
+
+## Gráfico de Dispersão:
+names(iris)
+ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width)) +
+  geom_point(size = 1, shape = 9)
+
+### Formato, cor e tamanho de acordo com a coluna "Species":
+ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, 
+                 col = Species)) +
+  geom_point(aes(shape = Species, size = Species), size = 2)
+
+## geom_point() -> Gráfico de Dispersão
+
+## Dar titulo ao gráfico:
+ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, 
+                 col = Species)) +
+  geom_point(aes(shape = Species, size = Species), size = 2) +
+  ggtitle("Gráfico de Dispersão")
+
+## Salvar / Exportar o gráfico:
+ggsave("plot1 iris.png", height = 7, width = 6, dpi = 300)
+
+ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, 
+                 col = Species)) +
+  geom_point(aes(shape = Species, size = Species), size = 2) +
+  ggtitle("Gráfico de Dispersão") +
+  ggsave("plot1 iris.png", height = 7, width = 6, dpi = 300)
+
+
 
 ## Boxplot
 ## geom_
