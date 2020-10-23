@@ -16,6 +16,7 @@ Repositório para o curso de *Introdução ao R* oferecido pelo MQuinho, 2020.
 
 Mestrando em Ciência Política no Programa de Pós­Graduação da Universidade Federal de Minas Gerais, e Bacharel em Ciências Sociais pela UFMG. <br />
 Pesquisador pelo Centro de Estudos do Comportamento Político (CECOMP), da UFMG. Membro da equipe de Análise Textual do Team Populism (BYU). <br />
+Pesquisador pela Fundação Oswaldo Cruz (Fiocruz) e colaborador no projeto "Gênero e COVID-19". <br />
 Foco na área de Comportamento Político e especialista em Populismo. Tem experiência com pesquisas envolvendo métodos quantitativos e qualitativos. <br />
 
 #### Redes Sociais e Contato :mailbox_with_mail: :
