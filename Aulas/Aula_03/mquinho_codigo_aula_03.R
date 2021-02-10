@@ -36,6 +36,9 @@ library(dplyr)
 # Limpando nosso ambiente:
 rm(list = ls())
 
+# Setar Diretório (se não estiver usando um projetinho)
+setwd(choose.dir())
+getwd()
 
 ##------------------------------------------------------------------------------
 
@@ -54,10 +57,13 @@ summary(iris)
 ## original. Não é necessário, mas para banco de dados com nomes extensos ou complicados, sempre é
 ## bom simplificar.
 
-library(readr)
+
+# Abrir Banco de Dados de 3 formas:
+
 
 iris2 <- read.csv("iris2.csv")
-iris2 <- read_csv("iris2.csv")
+# iris2 <- read.csv(file.choose())
+# Maneira interativa
 
 iris2$Species <- as.factor(iris2$Species)
 
@@ -72,14 +78,14 @@ summary(iris2)
 View(iris2)
 
 # Identificar NA com:
-## Sum(is.na)
 ## summary(x)
 summary(iris)
 summary(iris2)
 
-
+## sum() + is.na()
 is.na(iris2)
 sum(is.na(iris2))
+
 
 #### 
 
@@ -92,8 +98,10 @@ mean(iris2$Sepal.Length, na.rm = TRUE)
 # não altera o objeto original;
 summary(iris2)
 
-
+## na.exclude()
 na.exclude(iris2)
+
+
 iris3 <- na.exclude(iris2)
 
 
@@ -114,6 +122,7 @@ rm(list = ls())
 
 
 ### Glimpse nos oferece um resumo, bem direto, do banco de dado:
+## "Olhada Rápida":
 glimpse(iris)
 
 ### dbl: números reais;
@@ -137,10 +146,15 @@ dim(db)
 names(db)
 
 ### Se, ao invés de selecionar todas, o objetivo for apenas deletar uma, ou duas:
+db_n <- select(iris, -Sepal.Length, Species)
 db_n <- select(db, - c(Petal.Length, Petal.Width))
 
 dim(db_n)
 names(db_n)
+
+## Filter:
+db_n <- filter(iris, Species == "versicolor" & Petal.Length > 4.3)
+
 
 ## Podemos também combinar essas duas funções:
 ### Por exemplo: Imagine que estamos estudando as pétalas da íris de tipo versicolor;
@@ -160,6 +174,8 @@ View(db_n)
 
 ### Rename: Usamos para renomear determinadas colunas de um Data Frame:
 rename(iris, Largura_Sepala = Sepal.Width)
+rename(iris, largura.sepala = Sepal.Width,
+       teste = Species)
 
 ### Usando Rename para Renomear as Variáveis, mundando de Inglês para Português
 db_pt <- rename(iris, c(Largura_Sepala = Sepal.Width, Comprimento_Sepala = Sepal.Length,
@@ -182,13 +198,18 @@ db_pt <- rename(iris, raiz_quadrada_larg_sepala = x1,
 
 View(db_pt)
 
-# mutate(iris, sepala = rowMeans(select(iris, Sepal.Width, Sepal.Length)))
+## Mutate: rowMeans:
+#?rowMeans : (x) 
+mutate(iris, sepala = rowMeans(select(iris, Sepal.Width, Sepal.Length)))
 
 
 ## Pipe : %>%
 ### Pipe (%>%) faz com que o objeto da esquerda seja o primeiro argumento, ou o objeto ao que
 ### o que está na direita será aplicado sobre:
 
+x %>% sum()
+1:10 %>% sum() 
+# sum(1:10)
 
 ### Logo, o código: 
 db_n <- filter(iris, Species == "versicolor" & Petal.Length > 4.3)
@@ -203,7 +224,7 @@ db_n <- filter(iris, Species == "versicolor" & Petal.Length > 4.3)
 db_n <- select(db_n, Petal.Length, Petal.Width, Species)
 
 #### Pode ser escrito, usando %>%, da seguinte maneira:
-db_n <- db_pt %>%
+db_n <- iris %>%
   filter(Species == "versicolor" & Petal.Length > 4.3) %>%
   select(Petal.Length, Petal.Width, Species)
 
@@ -216,12 +237,8 @@ rm(list = ls())
 
 
 
-
-
 ##------------------------------------------------------------------------------
 # Exercício:
-
-###------
 
 
 ###-------
@@ -273,10 +290,11 @@ rm(list = ls())
 
 ### Group_by(): Agrupa os dados por variáveis fornecidas. Sozinho, o group_by não muda como os dados são
 ### mostrados. A mudança vem apenas quando combinado com outros verbos do Dplyr:
-View(group_by(db, tipo))
-View(db)
+View(group_by(iris, Species))
+View(iris)
+
   # Já o ungroup(): desfaz o agrupamento
-ungroup(db)
+# ungroup(db)
 
 ### Summarise(): resume os dados em uma unica linha de valores
 summarise(iris, avg = mean(Sepal.Length))
@@ -286,15 +304,26 @@ summarise(iris, cont = n())
 
 ### Contagem: n()
 db %>% 
-  group_by(tipo, largura_petala) %>%
-  summarise(cont = n()) %>%
-  ungroup()
+  group_by(Species, Petal.Width) %>%
+  summarise(cont = n()) 
 
 
 
 rm(list = ls())
 
 
+
+## Frequencia
+
+bd %>%
+  group_by(x) %>%
+  summarise(n = n()) %>%
+  mutate(freq = n / sum(n))
+
+iris %>%
+  group_by(Sepal.Length) %>%
+  summarise(n = n()) %>%
+  mutate(perc = round(prop.table(n)*100, 0))
 
 
 ##------------------------------------------------------------------------------
