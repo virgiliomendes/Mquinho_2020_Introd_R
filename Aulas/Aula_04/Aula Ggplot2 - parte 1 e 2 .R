@@ -9,6 +9,15 @@ rm(list = ls())
 #install.packages("ggplot2") # quem já tem instalado não precisa rodar
 
 library(ggplot2)
+library(dplyr)
+
+iris2 <- iris %>%
+  rename(c(sep_compr = Sepal.Length,
+           sep_larg = Sepal.Width, 
+           pet_compr = Petal.Length,
+           pet_larg = Petal.Width,
+           tipo = Species))
+
 
 ## Banco de dados: iris
 
@@ -17,6 +26,8 @@ library(ggplot2)
 # estrutura de criação de graficos:  ggplot(data = banco de dados, aes(x = X, y = Y))
 
 ## Gráfico de Dispersão:
+# 
+
 names(iris)
 ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width)) +
   geom_point(size = 1, shape = 9)
@@ -24,7 +35,9 @@ ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width)) +
 ### Formato, cor e tamanho de acordo com a coluna "Species":
 ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, 
                  col = Species)) +
-  geom_point(aes(shape = Species, size = Species), size = 2)
+  geom_point(aes(shape = Species), size = 2)
+
+
 
 ## geom_point() -> Gráfico de Dispersão
 
