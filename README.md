@@ -70,6 +70,11 @@ Serão **5** aulas, de 3h de duração cada (total de **15h**), organizadas da s
 - Aula 5: Encerramento e Trabalho Prático
 
 
+
+
+
+Todos os scripts e materiais formulados pelos autores são de propriedade intelectual dos mesmos e não devem ser usados sem consentimento prévio.
+
 <br />
 <br />
 
